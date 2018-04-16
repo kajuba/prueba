@@ -1,0 +1,56 @@
+.logo{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden
+}
+
+.Relacionados ul{
+	color:#ffffff
+	font-size: 16px;
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	text-align: justify;
+	width: 90%;
+	max-width: 1000px;
+	
+	overflow: hidden;
+	text-align: justify;
+	font-size: 16px;
+
+}
+
+h1{
+	 color: #FFF;
+	 text-align: center;
+}
+.Relacionados ul li a {
+	font-family: "Franklin Gothic Heavy";
+	font: bold 12px Arial;
+    color: #FFF;
+
+}
+
+
+
+#cajacontenido{
+	height: 800px;
+}
+
+
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	text-align: justify;
+}
+
+#scroll{
+	overflow -x: auto;
+	width: 100%;
+	display: inline; 
+}

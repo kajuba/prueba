@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+
+
+header nav, #Titulo, #Autores1, #Autores2, #Yesenia, #Duber, #Maygel{
+	width: 100%;
+
+}
+
+.navegacion{
+<<<<<<< HEAD
+	width: 1000px;
+=======
+	width: 980px;
+>>>>>>> ecea3a65dc3a622cd0fc4ccfbd05ada2c549b874
+	margin: 1px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+#Yesenia{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#Infyesenia{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#Juan{
+	width: 980px;
+	height: 260px;
+	float: right;
+	display: inline-block;
+}
+#imgjuan{
+	float: right;
+}
+#infjuan{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
+}
+#Mayguel{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#infmayguel{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#Duber{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#imgduber{
+	float: right;
+}
+#Infduber{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
+}
+#Angel{
+	width: 980px;
+	height: 260px;
+	display: inline-block;
+}
+#Infangel{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#imgangel{
+	float: left;
+}
